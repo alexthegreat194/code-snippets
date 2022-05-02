@@ -12,3 +12,8 @@ Install snippet with degit
   npx degit alexthegreat194/code-snippets#<snippet>
 ```
     
+## Express-HBS
+
+```bash
+  npx degit alexthegreat194/code-snippets#express-hbs
+```
