@@ -15,6 +15,7 @@ Install snippet with degit
 ## Express-HBS
 
 ```bash
+  npm install express-handlebars
   npx degit alexthegreat194/code-snippets#express-hbs
 ```
 
