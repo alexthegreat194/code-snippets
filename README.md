@@ -24,5 +24,9 @@ Install snippet with degit
 ```bash
   npm install -D tailwindcss
   npx degit alexthegreat194/code-snippets#express-tailwindcss --force
-  npx tailwindcss -i ./src/main.css -o ./dist/output.css --watch
+  npx tailwindcss -i ./src/main.css -o ./public/output.css --watch
+```
+### add this to the app.js
+```javascript
+  app.use(express.static("public")); // static files
 ```
